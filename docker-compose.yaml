@@ -49,4 +49,4 @@ services:
             file_path VARCHAR(1024),
             post_id BIGINT NOT NULL REFERENCES posts(id)
           );
-        EOSQL 
+        EOSQL
